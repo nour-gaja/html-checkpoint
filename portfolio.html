@@ -4,15 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <style>
-        .border{
-            border: 1px solid red;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
     <header>
-        <h1><b>MY PORTFOLIO</b></h1>
+        <h1 id="sty"><b>MY PORTFOLIO</b></h1>
         <nav>
             <ul>
                 <li><a href="asdfttt">Home</a></li>
@@ -23,18 +20,19 @@
             </ul>
         </nav>
     </header>
-    <section>
+    <section class="ref">
         <a name="About"></a>
-        <h1>About</h1>
+        <h1 class="title">About</h1>
+        <aside class="border">
+            <img src="img1.jpg" alt="my picture" id="pic">
+        </aside>
         <p>Hello! I’m Nour Gaja, a graphic designer based in Tunisia. I have a passion for creating visually compelling designs and enjoy collaborating with clients to bring their visions to life. With over 5 years of experience, I’ve worked on projects that include branding, web design, and print media. <br>
         I believe in the power of storytelling through design and strive to create work that resonates with audiences. When I’m not designing, you can find me hiking, exploring new art galleries, or experimenting with photography.</p>
-        <aside class="border">
-            <img src="img1.jpg" alt="my picture">
-        </aside>
+        
     </section>
-    <section>
+    <section class="ref">
         <a name="work"></a>
-        <h1>Work</h1>
+        <h1 class="title">Work</h1>
         <ul>
             <li><p>Project Name: E-Commerce Website for ABC Store <br>
                 Role: UI/UX Designer <br>
@@ -47,14 +45,14 @@
                 Description: Created a series of infographics to visually communicate complex data for DEF Organization. The infographics were shared widely and helped to simplify key information for stakeholders.</p></li>       
         </ul>
     </section>
-    <section>
+    <section class="ref">
         <a name="Resume"></a>
-        <h1>My Resume</h1>
+        <h1 class="title">My Resume</h1>
         <p>please find attached my resume </p>
     </section>
-    <section>
+    <section class="ref" id="contact">
         <a name ="Contact"></a>
-        <h1>Contact me </h1>
+        <h1 class="title" >Contact me </h1>
         <form action="submit">
             <label for="name">Name:</label> 
             <input type="text" name="name" id="name" required placeholder="your name "> <br><br>
@@ -62,9 +60,10 @@
             <input type="email" name="email" id="email" required placeholder="name@yahoo.com"> <br> <br>
             <label for="tel">Phone Number:</label>
             <input type="tel" name="tel" id="tel"> <br><br>
-            <textarea name="comment" id="comment">Write a comment</textarea> <br><br>
-            <input type="reset" value="reset">
-            <input type="submit" value="submit">
+            <label for="add comment">Add a comment:</label> <br>
+            <textarea name="comment" id="comment"> </textarea> <br><br>
+            <input type="reset" value="reset" class="button">
+            <input type="submit" value="submit" class="button">
         </form>
     </section> 
     <br>  <hr>

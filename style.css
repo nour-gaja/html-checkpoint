@@ -1,0 +1,88 @@
+#sty{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #2d1f5a;
+}
+  nav ul li{
+    display: inline ;
+    padding: 20px;
+    cursor: pointer;
+    
+  }
+  a:link{
+    color: #ffffff;
+  }
+
+ 
+  a:visited{
+    color: rgb(20, 158, 93);
+  }
+ a:hover{
+    color: hotpink;
+  }
+
+  #pic{
+    float: right;   
+    width: 30%;
+    height: 8pc;
+    display: block;
+    padding-left: 12px;
+ 
+  }
+  .ref{
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid cadetblue ;
+    border: radius 20cm;;
+  }
+  .title{
+    color: #f30a0a;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+   
+    header {
+        background-color: #648297;
+        padding: 20px;
+        margin: 0;
+      }
+      
+      nav {
+        background-color: #2d1f5a; 
+        color: #fff; }
+
+     #contact {
+        background-image: url('contact.avif'); 
+         background-size: cover;
+         background-position: center;
+        color: #fff; 
+        height: 500px;
+    }
+    
+
+    
+    .button {
+       
+        border-radius: 2px;
+        border: 2px solid #ff6363;
+        text-align: center;
+        font-size: 1em;
+        color: #ff6363;
+        background-color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        margin-right: 20px;
+      }
+      
+      .button:hover {
+        background-color: #ff6363;
+        color: white;
+    }
+    footer{
+        background-color: #2c3d52;
+        color: #ffffff;
+        padding-left: 15px;
+        
+    }
+
